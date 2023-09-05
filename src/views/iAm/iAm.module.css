@@ -45,7 +45,7 @@
     font-size: 1rem;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    border: solid 1px aliceblue;
+    border: solid 3px aliceblue;
     border-radius: 50px;
   }
   

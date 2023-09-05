@@ -44,20 +44,21 @@ const Work = () => {
 </a>
       </div>
   <h3 className={styles.title}> Aplicación de Perros</h3>
-  <div className={styles.imageAndText}>
+      <div className={styles.boxContent}>
+ 
     <img className={styles.galeryDog} src={imageDog} alt="Imagen de Perro" />
     <p className={styles.text}>
     Una SPA que utiliza datos de una API externa para mostrar información detallada y general de más de 100 razas de perros. 
     Ofrece funciones de búsqueda eficiente por nombre, filtrado y ordenamiento combinado,
      y la capacidad de crear nuevas razas a través de un formulario controlado.
     </p>
-</div>
+    </div>
     <div className={styles.galeryLogo}>
 <a href="https://github.com/agustinrosa22/proyectoDogs.git" target="_blank">
   <img className={styles.logo} src={logoGithub} alt="Logo de GitHub" />
 </a>
       </div>
-    </div>
+      </div>
   );
 };
 

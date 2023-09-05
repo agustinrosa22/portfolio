@@ -26,6 +26,7 @@
   color: #7de7fa;
 }
 .boxContent {
+  padding-bottom: 15px;
   display: flex;
   flex-wrap: wrap; 
   align-items: center; 
@@ -45,8 +46,8 @@
   display: flex;
   flex-wrap: wrap;
     display: flex;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
 }
 .galery img{
     width: 0px;
@@ -58,7 +59,7 @@
   
 }
 .galery img:hover{
-    width: 500px;
+    width: 400px;
     opacity: 1;
     filter: brightness(130%);
 }
@@ -94,8 +95,8 @@
   }
   
   .galeryDog {
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
     margin-right: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 5);
   }
