@@ -1,0 +1,30 @@
+
+.footer {
+  background-color: rgb(23, 25, 54);
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  .social {
+    margin-bottom: 10px;
+  }
+  
+  .social a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .email {
+    margin-top: 10px;
+  }
+  .logo{
+    width: 40px;
+    height: 40px;
+}
+.logo:hover {
+  filter: brightness(5); /* Ajusta el brillo para cambiar el color */
+  transition: filter 0.3s ease; /* Agrega una transición suave para el cambio de color */
+
+}

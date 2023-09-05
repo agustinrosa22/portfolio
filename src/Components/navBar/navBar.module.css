@@ -1,0 +1,49 @@
+.navBar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgb(23, 25, 54);
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 12px;
+  }
+  
+  .navItem {
+    padding-right: 15px;
+    margin: 0 10px;
+    opacity: 0;
+    transform: translateY(-20px);
+    animation: fadeInUp 0.5s ease-out forwards;
+  }
+  
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .navItem:last-child {
+    margin-right: 0;
+  }
+  
+  .navItem a {
+    padding: 5px;
+    text-decoration: none;
+    color: #d99f0e;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navItem a:hover {
+    color: #ff6b6b;
+  }
+  

@@ -1,0 +1,28 @@
+.container {
+    background-color: rgb(32, 35, 77);
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 300px;
+  }
+  .about{
+    font-size: 2.5rem;
+    margin-top: 10px;
+    text-align: justify;
+    color: aliceblue;
+    text-decoration: underline  #fa098d;
+  }
+
+  .presentation{
+    font-size: 1.5rem;
+    color: #777;
+    text-align: justify;
+    color: #d99f0e;
+  }
+  .text {
+    font-size: 1rem;
+    margin: 10px 0;
+    color: aliceblue;
+    text-align: justify;
+  }
