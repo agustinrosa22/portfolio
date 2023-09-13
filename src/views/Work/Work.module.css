@@ -5,6 +5,7 @@
   margin: 0 auto;
   padding: 0 20px;
   padding-bottom: 200px;
+  padding-top: 100px;
 }
 .name{
   font-size: 2.5rem;
@@ -61,7 +62,7 @@
 .galery img:hover{
     width: 400px;
     opacity: 1;
-    filter: brightness(130%);
+    filter: brightness(100%);
 }
 .logo{
     width: 30px;
