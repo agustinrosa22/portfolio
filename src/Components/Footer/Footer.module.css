@@ -12,19 +12,49 @@
   
   .social a {
     color: white;
-    margin: 0 10px;
+    margin: 0 30px;
     text-decoration: none;
   }
   
   .email {
     margin-top: 10px;
   }
-  .logo{
+  .logoContainer {
+    position: relative;
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño del logo */
+  }
+  
+  .logo {
     width: 40px;
     height: 40px;
-}
-.logo:hover {
-  filter: brightness(5); /* Ajusta el brillo para cambiar el color */
-  transition: filter 0.3s ease; /* Agrega una transición suave para el cambio de color */
-
-}
+    transition: filter 0.3s ease; /* Agregamos una transición suave para el cambio de color */
+  }
+  
+  .logoContainer:hover {
+    filter: brightness(150%); /* Aumentamos el brillo en hover */
+    z-index: 1; /* Aseguramos que el logo esté por encima del resplandor */
+    
+  }
+  
+  .logoContainer::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background-color: #fa098d;
+    border-radius: 50%;
+    opacity: 0;
+    z-index: -1;
+    transition: opacity 0.3s ease; /* Agregamos una transición suave para la opacidad */
+    box-shadow: 0 0 5px #fa098d,
+    0 0 25px #fa098d,
+    0 0 50px #fa098d,
+    0 0 200px #fa098d;
+  }
+  
+  .logoContainer:hover::before {
+    opacity: 0.7; /* Hacemos visible el resplandor en hover */
+  }
+  
