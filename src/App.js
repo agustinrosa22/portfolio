@@ -5,7 +5,6 @@ import Presentation from './views/iAm/iAm.jsx'
 import About from './views/About/About.jsx'
 import Skills from './views/Skills/Skills.jsx'
 import Work from './views/Work/Work.jsx';
-import EmailContact from './Components/Footer/Footer.jsx';
 import Footer from './Components/Footer/Footer.jsx';
 
 function App() {
