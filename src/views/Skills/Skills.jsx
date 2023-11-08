@@ -17,7 +17,7 @@ const Skills = () => {
   return (
     <div className={styles.habilidades}>
       <h1 className={styles.name}>Habilidades</h1>
-     <h2 className={styles.presentation}>Estas son las habilidades con las que eh trabajado</h2>
+     <h2 className={styles.presentation}>Estas son las habilidades con las que he trabajado</h2>
      <div className={styles.box}>
       <div className={styles.container}>
       <img className={styles.img} src={htmlLogo} alt='html'/>
