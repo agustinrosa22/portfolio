@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 import LinkedinLogo from '../../Assets/LinkedIn.svg.png';
 import githubLogo from '../../Assets/github.svg.png';
 import gmailLogo from '../../Assets/Gmail.svg.webp';
-import cvLogo from '../../Assets/cv.svg'
+import cvLogo from '../../Assets/cvNew.png'
 
 const Footer = () => {
   return (
