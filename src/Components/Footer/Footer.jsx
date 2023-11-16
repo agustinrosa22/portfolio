@@ -19,7 +19,7 @@ const Footer = () => {
         <img className={styles.logo} src={githubLogo} alt="" />
       </div>
     </a>
-    <a href="https://drive.google.com/file/d/1ik042EJtndjdAtpb0u9cQYSDdBJWzymI/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+    <a href="https://drive.google.com/file/d/1F2_ImzZEp-uM0sXbxp9OYLv1ZuT-G7SA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
       <div className={styles.logoContainer}>
         <img className={styles.logo} src={cvLogo} alt="" />
       </div>
