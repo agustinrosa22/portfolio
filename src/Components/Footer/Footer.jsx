@@ -1,8 +1,8 @@
 import React from 'react';
 import styles from './Footer.module.css'
-import LinkedinLogo from '../../Assets/LinkedIn.svg.png';
-import githubLogo from '../../Assets/github.svg.png';
-import gmailLogo from '../../Assets/Gmail.svg.webp';
+import LinkedinLogo from '../../Assets/104493_linkedin_icon (1).png';
+import githubLogo from '../../Assets/291716_github_logo_social network_social_icon (1).png';
+import gmailLogo from '../../Assets/logo_gmail_icon.png';
 import cvLogo from '../../Assets/cvNew.png'
 
 const Footer = () => {

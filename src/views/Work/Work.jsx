@@ -8,8 +8,8 @@ import image06 from '../../Assets/Captura(104).png';
 import image07 from '../../Assets/Captura(105).png';
 import image08 from '../../Assets/Captura(106).png';
 import imageDog from '../../Assets/Captura(108).png';
-import logoGoogle from '../../Assets/Google.webp'
-import logoGithub from '../../Assets/github.svg.png'
+import logoGoogle from '../../Assets/7123953_logo_google_g_icon.png'
+import logoGithub from '../../Assets/291716_github_logo_social network_social_icon (1).png'
 
 
 const Work = () => {
